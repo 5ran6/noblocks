@@ -9,11 +9,13 @@
 
 > **Additional documentation is available in the [`docs/`](docs/) directory.**
 
-This branch contains the codebase for Noblocks on Hedera. Noblocks simplifies cryptocurrency-to-local currency conversion using a decentralized liquidity protocol, providing a seamless user experience powered by [Paycrest Protocol](https://paycrest.io/).
+This branch contains the codebase for Noblocks on Hedera. Noblocks simplifies cryptocurrency-to-local currency conversion using a decentralized liquidity protocol, providing a seamless user experience powered by [ Protocol](https://.io/).
 
 Visit the live site at [noblocks.xyz](https://noblocks.xyz).
 
 Deck -> [Pitch Deck](https://pitch.com/v/noblocks-pitch-qn6peu)
+<img width="944" height="1032" alt="image" src="https://github.com/user-attachments/assets/41a83e25-866c-419f-bec1-54aeb7affa8a" />
+
 
 ## Running Locally
 
@@ -22,7 +24,7 @@ To run the project locally, follow these steps:
 1. Clone the repository and switch to the waitlist branch:
 
    ```bash
-   git clone https://github.com/paycrest/noblocks.git
+   git clone https://github.com/5ran6/noblocks.git
    cd noblocks
    ```
 
@@ -35,7 +37,7 @@ To run the project locally, follow these steps:
      ```
 
    - Add your privy app ID (`NEXT_PUBLIC_PRIVY_APP_ID`) to the `.env.local` file.
-   - Setup your [Privy](https://www.privy.io/) account by doing the following: - Get your app ID: ![image](https://github.com/paycrest/noblocks/blob/main/public/images/Screenshot%202025-02-06%20at%2016.12.19.png?raw=true) - Add your local domain URL: ![image](https://github.com/paycrest/noblocks/blob/main/public/images/Screenshot%202025-02-06%20at%2016.10.44.png?raw=true) - Enable smart wallet and configure chains: ![image](public/images/Screenshot%202025-02-25%20at%2001.14.22.png) - Enable funding: ![image](public/images/Screenshot%202025-02-25%20at%2002.08.23.png)
+   - Setup your [Privy](https://www.privy.io/) account by doing the following: - Get your app ID: ![image](https://github.com//noblocks/blob/main/public/images/Screenshot%202025-02-06%20at%2016.12.19.png?raw=true) - Add your local domain URL: ![image](https://github.com//noblocks/blob/main/public/images/Screenshot%202025-02-06%20at%2016.10.44.png?raw=true) - Enable smart wallet and configure chains: ![image](public/images/Screenshot%202025-02-25%20at%2001.14.22.png) - Enable funding: ![image](public/images/Screenshot%202025-02-25%20at%2002.08.23.png)
      P.S: Check out the privy docs for more information - <https://docs.privy.io/guide/react/quickstart>
 
 3. Install dependencies and start the development server:
@@ -51,17 +53,17 @@ To run the project locally, follow these steps:
 
 Noblocks streamlines the conversion process through a simple flow:
 
-1. **Create Order:** User creates an order on the [Gateway Smart Contract](https://github.com/paycrest/contracts) (escrow) through the Noblocks interface.
-2. **Aggregate:** Paycrest Protocol Aggregator indexes the order and assigns it to one or more [Provision Nodes](https://github.com/paycrest/provider) run by liquidity providers.
+1. **Create Order:** User creates an order on the [Gateway Smart Contract](https://github.com//contracts) (escrow) through the Noblocks interface.
+2. **Aggregate:**  Protocol Aggregator indexes the order and assigns it to one or more [Provision Nodes](https://github.com//provider) run by liquidity providers.
 3. **Fulfill:** The provisioning node automatically disburses funds to the recipient's local bank account or mobile money wallet via connections to payment service providers (PSP).
 
-For more details, visit [paycrest.io](https://paycrest.io).
+For more details, visit [.io](https://.io).
 
-### Noblocks is built on Paycrest Protocol
+### Noblocks is built on  Protocol
 
 | Before                                                                                         | Now                                                                                            |
 | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| ![image](https://github.com/paycrest/zap/assets/87664239/73548ada-bde5-41f5-8af6-0f9f943c763f) | ![image](https://github.com/paycrest/zap/assets/87664239/495e166f-54cf-4951-9cdd-92b9357e8608) |
+| ![image](https://github.com//zap/assets/87664239/73548ada-bde5-41f5-8af6-0f9f943c763f) | ![image](https://github.com//zap/assets/87664239/495e166f-54cf-4951-9cdd-92b9357e8608) |
 
 ## 🛠️ Technologies Used
 
@@ -70,13 +72,13 @@ For more details, visit [paycrest.io](https://paycrest.io).
 
 ## Contributing
 
-We welcome contributions to the Paycrest noblocks app! To get started, follow these steps:
+We welcome contributions to the  noblocks app! To get started, follow these steps:
 
 **Important:** Before you begin contributing, please ensure you've read and understood these important documents:
 
-- [Contribution Guide](https://paycrest.notion.site/Contribution-Guide-1602482d45a2809a8930e6ad565c906a) - Critical information about development process, standards, and guidelines.
+- [Contribution Guide](https://.notion.site/Contribution-Guide-1602482d45a2809a8930e6ad565c906a) - Critical information about development process, standards, and guidelines.
 
-- [Code of Conduct](https://paycrest.notion.site/Contributor-Code-of-Conduct-1602482d45a2806bab75fd314b381f4c) - Our community standards and expectations.
+- [Code of Conduct](https://.notion.site/Contributor-Code-of-Conduct-1602482d45a2806bab75fd314b381f4c) - Our community standards and expectations.
 
 Our team will review your pull request and work with you to get it merged into the main branch of the repository.
 
