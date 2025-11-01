@@ -257,10 +257,13 @@ export const WalletView: React.FC<WalletViewProps> = ({
               className="space-y-2 overflow-hidden *:min-h-11"
             >
               {networks
-                .filter(
-                  (network) =>
-                    isInjectedWallet || network.chain.name !== "Celo",
-                )
+                .filter((network) => {
+                  if (isInjectedWallet) return true;
+                  return (
+                    network.chain.name !== "Celo" &&
+                    network.chain.name !== "Hedera Mainnet"
+                  );
+                })
                 .map((network) => (
                   <button
                     type="button"
