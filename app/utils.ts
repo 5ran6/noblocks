@@ -216,6 +216,24 @@ export function normalizeNetworkName(networkId: string): string {
 }
 
 /**
+ * Converts display network name to API format for rate requests
+ * @param networkName - Network display name (e.g., "Hedera Mainnet", "Arbitrum One")
+ * @returns API format (e.g., "hedera", "arbitrum-one")
+ */
+export function networkNameToApiFormat(networkName: string): string {
+  if (!networkName || typeof networkName !== "string") {
+    return networkName;
+  }
+  
+  // Special case: Hedera Mainnet should be "hedera" not "hedera-mainnet"
+  if (networkName === "Hedera Mainnet") {
+    return "hedera";
+  }
+  
+  return networkName.toLowerCase().replace(/\s+/g, "-");
+}
+
+/**
  * Transforms API token data to application token format
  * @param apiToken - Raw token data from API
  * @returns Formatted token for application use

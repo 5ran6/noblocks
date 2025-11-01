@@ -30,7 +30,7 @@ import {
 } from "../types";
 import { usePrivy } from "@privy-io/react-auth";
 import { useStep } from "../context/StepContext";
-import { clearFormState, getBannerPadding } from "../utils";
+import { clearFormState, getBannerPadding, networkNameToApiFormat } from "../utils";
 import { useSearchParams } from "next/navigation";
 import { HomePage } from "./HomePage";
 import { useNetwork } from "../context/NetworksContext";
@@ -267,9 +267,7 @@ export function MainPageContent() {
             amount: amountSent || 100,
             currency,
             providerId,
-            network: selectedNetwork.chain.name
-              .toLowerCase()
-              .replace(/\s+/g, "-"),
+            network: networkNameToApiFormat(selectedNetwork.chain.name),
           });
           setRate(rate.data);
           setRateError(null); // Clear error on success
