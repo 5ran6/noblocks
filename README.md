@@ -9,9 +9,9 @@
 
 > **Additional documentation is available in the [`docs/`](docs/) directory.**
 
-This branch contains the codebase for Noblocks on Hedera. Noblocks simplifies cryptocurrency-to-local currency conversion using a decentralized liquidity protocol, providing a seamless user experience powered by [ Protocol](https://.io/).
+This branch contains the codebase for Noblocks on Hedera. Noblocks simplifies cryptocurrency-to-local currency conversion using a decentralized liquidity protocol, providing a seamless user experience powered by [Paycrest Protocol](https://github.com/paycrest/contracts).
 
-Visit the live site at [noblocks.xyz](https://noblocks.xyz).
+Visit the live site at [crossbow.noblocks.xyz](https://crossbow.noblocks.xyz/?injected=true).
 
 Deck -> [Pitch Deck](https://pitch.com/v/noblocks-pitch-qn6peu)
 <img width="944" height="1032" alt="image" src="https://github.com/user-attachments/assets/41a83e25-866c-419f-bec1-54aeb7affa8a" />
