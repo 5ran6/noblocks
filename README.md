@@ -16,6 +16,11 @@ Visit the live site at [crossbow.noblocks.xyz](https://crossbow.noblocks.xyz/?in
 Deck -> [Pitch Deck](https://pitch.com/v/noblocks-pitch-qn6peu)
 <img width="944" height="1032" alt="image" src="https://github.com/user-attachments/assets/41a83e25-866c-419f-bec1-54aeb7affa8a" />
 
+Certifications: 
+
+Francis - https://certs.hashgraphdev.com/6e72a9a1-b98a-492e-8e76-bda2657b8653.pdf
+
+Prosper - https://certs.hashgraphdev.com/334a6b73-33ba-43b6-87c4-de5230a5501f.pdf
 
 ## Running Locally
 
